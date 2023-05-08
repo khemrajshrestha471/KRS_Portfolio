@@ -1,71 +1,97 @@
 .rotate {
     text-align: center;
-    margin-top: -215rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: -225rem;
+    overflow: hidden;
 }
 
-/* =======================  MEDIA QUERIES (MEDIUM DEVICES) ===================== */
-
-@media screen and (max-width: 1285px) {
+@media screen and (max-width: 1080px) {
     .rotate {
         text-align: center;
-        margin-top: -223rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: -230rem;
+        overflow: hidden;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
     .rotate {
         text-align: center;
-        margin-top: -303rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: -300rem;
+        overflow: hidden;
     }
 }
 
-@media screen and (max-width: 729px) {
+@media screen and (max-width: 760px) {
     .rotate {
         text-align: center;
-        margin-top: -305rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: -310rem;
+        overflow: hidden;
     }
 }
-
-/* =======================  MEDIA QUERIES (SMALL DEVICES) ===================== */
 
 @media screen and (max-width: 600px) {
     .rotate {
         text-align: center;
-        margin-top: -422rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: -460rem;
+        overflow: hidden;
     }
 }
 
-@media screen and (max-width: 545px) {
+@media screen and (max-width: 520px) {
     .rotate {
         text-align: center;
+        justify-content: center;
+        align-items: center;
         margin-top: -450rem;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .rotate {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: -435rem;
+        overflow: hidden;
     }
 }
 
 @media screen and (max-width: 415px) {
     .rotate {
         text-align: center;
-        margin-top: -428rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: -425rem;
+        overflow: hidden;
     }
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 300px) {
     .rotate {
         text-align: center;
-        margin-top: -420rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: -435rem;
+        overflow: hidden;
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 255px) {
     .rotate {
         text-align: center;
-        margin-top: -415rem;
-    }
-}
-
-@media screen and (max-width: 365px) {
-    .rotate {
-        text-align: center;
-        margin-top: -418rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: -448rem;
+        overflow: hidden;
     }
 }
