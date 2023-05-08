@@ -29,9 +29,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/khemrajshrestha471/" target="_blank" data-aos="fade-up-right"><FaLinkedinIn /></a>
+        <a href="https://www.linkedin.com/in/khemrajshrestha471/" target="_blank" data-aos="fade-down-left"><FaLinkedinIn /></a>
         <a href="https://www.facebook.com/khemrajshrestha471" target='_blank' data-aos="fade-left"><FaFacebookF /></a>
-        <a href="https://www.instagram.com/khemrajshrestha471/" target='_blank' data-aos="fade-down-left"><FiInstagram /></a>
+        <a href="https://www.instagram.com/khemrajshrestha471/" target='_blank' data-aos="zoom-in"><FiInstagram /></a>
         <a href="https://twitter.com/khemrajstha471" target='_blank' data-aos="zoom-out-up"><IoLogoTwitter /></a>
         <a href="https://discord.com/invite/FGnHhh9ycC" target='_blank' data-aos="zoom-in-down"><BsDiscord /></a>
       </div>

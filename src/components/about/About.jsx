@@ -23,7 +23,7 @@ const About = () => {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card" data-aos="fade-up-right">
+            <article className="about__card" data-aos="fade-up-left">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>2+ Years Working</small>
@@ -33,7 +33,7 @@ const About = () => {
               <h5>Clients</h5>
               <small>30+ Worldwide</small>
             </article>
-            <article className="about__card" data-aos="fade-down-left">
+            <article className="about__card" data-aos="zoom-out">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>45+ Completed</small>
