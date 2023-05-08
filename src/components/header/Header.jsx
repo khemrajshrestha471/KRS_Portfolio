@@ -46,7 +46,7 @@ const Header = () => {
 
       <div className="container header__container">
     <h5>Hello, I'm</h5>
-    <h1 data-aos="zoom-in">Khemraj Shrestha1</h1>
+    <h1 data-aos="zoom-in">Khemraj Shrestha</h1>
     
 
     <h5 className="text-light">{state.title}</h5>  
