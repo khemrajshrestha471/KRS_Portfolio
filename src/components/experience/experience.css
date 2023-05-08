@@ -1,0 +1,42 @@
+#experience {
+    height: 60vh;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.1
+    }
+
+    80% {
+        opacity: .8
+    }
+}
+
+.blink {
+    animation: blink 1.5s linear infinite;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1026px) {
+    #experience {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 916px) {
+    #experience {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #experience {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    #experience {
+        height: 64vh;
+    }
+}

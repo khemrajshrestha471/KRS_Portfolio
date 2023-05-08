@@ -1,0 +1,71 @@
+.rotate {
+    text-align: center;
+    margin-top: -215rem;
+}
+
+/* =======================  MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+
+@media screen and (max-width: 1285px) {
+    .rotate {
+        text-align: center;
+        margin-top: -223rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .rotate {
+        text-align: center;
+        margin-top: -303rem;
+    }
+}
+
+@media screen and (max-width: 729px) {
+    .rotate {
+        text-align: center;
+        margin-top: -305rem;
+    }
+}
+
+/* =======================  MEDIA QUERIES (SMALL DEVICES) ===================== */
+
+@media screen and (max-width: 600px) {
+    .rotate {
+        text-align: center;
+        margin-top: -422rem;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .rotate {
+        text-align: center;
+        margin-top: -450rem;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .rotate {
+        text-align: center;
+        margin-top: -428rem;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .rotate {
+        text-align: center;
+        margin-top: -420rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .rotate {
+        text-align: center;
+        margin-top: -415rem;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .rotate {
+        text-align: center;
+        margin-top: -418rem;
+    }
+}

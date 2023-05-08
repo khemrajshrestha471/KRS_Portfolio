@@ -1,0 +1,245 @@
+header {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.bubbles {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bubbles span {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc,
+    0 0 100px #4fc3dc;   
+}
+
+.b1 {
+    animation: animate 15s linear infinite;
+}
+
+.b2 {
+    animation: animate 5s linear infinite;
+}
+
+.b3 {
+    animation: animate 12s linear infinite;
+}
+
+.b4 {
+    animation: animate 34s linear infinite;
+}
+
+.b5 {
+    animation: animate 19s linear infinite;
+}
+
+.b6 {
+    animation: animate 7s linear infinite;
+}
+
+.b7 {
+    animation: animate 32s linear infinite;
+}
+
+.b8 {
+    animation: animate 15s linear infinite;
+}
+
+.b9 {
+    animation: animate 27s linear infinite;
+}
+
+.b10 {
+    animation: animate 31s linear infinite;
+}
+
+.b11 {
+    animation: animate 3s linear infinite;
+}
+
+.b12 {
+    animation: animate 19s linear infinite;
+}
+
+.b13 {
+    animation: animate 24s linear infinite;
+}
+
+.b14 {
+    animation: animate 16s linear infinite;
+}
+
+.b15 {
+    animation: animate 15s linear infinite;
+}
+
+.b16 {
+    animation: animate 42s linear infinite;
+}
+
+.b17 {
+    animation: animate 12s linear infinite;
+}
+
+.b18 {
+    animation: animate 37s linear infinite;
+}
+
+.b19 {
+    animation: animate 17s linear infinite;
+}
+
+.b20 {
+    animation: animate 23s linear infinite;
+}
+
+.bubbles span:nth-child(even) {
+    background: #0080ff;
+    box-shadow: 0 0 0 10px #0080ff44,
+                0 0 50px #0080ff55,
+                0 0 100px #0080ff88;
+}
+
+
+
+@keyframes animate {
+    0% {
+        transform: translateY(100vh) scale(0);
+    }
+
+    100% {
+        transform: translateY(-10vh) scale(1);
+    }
+
+    50% {
+        opacity: 0.1
+    }
+
+    80% {
+        opacity: .7
+    }
+}
+
+/* ======================== CTA ========================== */
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ======================== HEADER SOCIALS ========================== */
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    top: 7rem;
+}
+
+.header__socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ======================== ME ========================== */
+
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 19rem;
+    height: 20rem;
+    left: calc(50% - 10rem);
+    margin-top: 3rem;
+    border-radius: 12rem 12rem 11rem 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.me::before,
+.me::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    z-index: -1;
+    background-color: black;
+}
+
+/* ======================== SCROLL DOWN ========================== */
+
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+    bottom: 18rem;
+}
+
+.scroll__down-arrow {
+    position: absolute;
+    right: -0.2rem;
+    bottom: 1.8rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: var(--color-primary);
+    bottom: 14.5rem;
+}
+
+.scroll__down-arrow:hover {
+    color: var(--color-white);
+}
+
+/* =======================  MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
+/* =======================  MEDIA QUERIES (SMALL DEVICES) ===================== */
+
+@media screen and (max-width: 600px) {
+ header {
+    height: 100vh;
+ }
+
+ .header__socials,
+ .scroll__down {
+    display: none;
+ }
+
+ .scroll__down-arrow {
+    font-size: 2rem;
+    left: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--color-primary);
+    padding: 4px;
+    top: 45rem;
+ }
+}
