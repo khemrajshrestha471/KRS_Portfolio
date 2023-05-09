@@ -10,6 +10,8 @@ import emailjs from 'emailjs-com'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
+import ReCAPTCHA from "react-google-recaptcha"
+
 const Contact = () => {
 
   useEffect(() => {
@@ -26,6 +28,10 @@ const Contact = () => {
 
       e.target.reset()
   };
+
+  function onChange(value) {
+    console.log("Captcha value:", value);
+  }
 
   return (
     <section id='contact'>
@@ -63,6 +69,10 @@ const Contact = () => {
           <input type="text" name="subject" placeholder='Subject' required />
           <textarea name="message" rows="7" placeholder='Your Message' required>
           </textarea>
+          <ReCAPTCHA
+    sitekey="6LfakowiAAAAALbS94ZaquYxhzYOBMhvJ_XlCfTI"
+    onChange={onChange} required
+  />
           <button type='submit' className='btn btn-primary blink'>Send Message</button>
         </form>
 

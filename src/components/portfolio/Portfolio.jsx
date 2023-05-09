@@ -15,6 +15,7 @@ const Portfolio = () => {
   useEffect(() => {
     Aos.init({duration: 2000});
 }, []);
+
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
