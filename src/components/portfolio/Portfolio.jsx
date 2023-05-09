@@ -51,7 +51,7 @@ const Portfolio = () => {
           <h3>Compiler Design - Own Syntax</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/khemrajshrestha471/compiler-design" className='btn' target='_blank'>GitHub</a>
-            <a href="https://www.linkedin.com/in/khemrajshrestha471/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://www.khemrajshrestha.com.np/coming-soon" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
@@ -65,7 +65,7 @@ const Portfolio = () => {
           <h3>Quiz Application - PHP</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/khemrajshrestha471/Quiz_PHP" className='btn' target='_blank'>GitHub</a>
-            <a href="https://www.linkedin.com/in/khemrajshrestha471/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://www.khemrajshrestha.com.np/coming-soon" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
@@ -77,7 +77,7 @@ const Portfolio = () => {
           <h3>Hospital Management System</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/khemrajshrestha471/CProject-077-BCT-HMS" className='btn' target='_blank'>GitHub</a>
-            <a href="https://www.linkedin.com/in/khemrajshrestha471/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://www.khemrajshrestha.com.np/coming-soon" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
@@ -88,7 +88,7 @@ const Portfolio = () => {
           <h3>To Do List (On The Way)</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/khemrajshrestha471" className='btn' target='_blank'>GitHub</a>
-            <a href="https://www.linkedin.com/in/khemrajshrestha471/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://www.khemrajshrestha.com.np/coming-soon" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
