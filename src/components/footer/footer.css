@@ -80,3 +80,9 @@ footer a {
         margin-bottom: 2.6rem;
     }
 }
+
+@media screen and (max-width: 520px) {
+    .footer__copyright {
+        margin-bottom: 5rem;
+    }
+}
