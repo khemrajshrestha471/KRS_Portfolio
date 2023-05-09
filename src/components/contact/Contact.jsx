@@ -29,8 +29,11 @@ const Contact = () => {
       e.target.reset()
   };
 
+  const [verfied, setVerifed] = useState(false);
+
   function onChange(value) {
     console.log("Captcha value:", value);
+    setVerifed(true);
   }
 
   return (
@@ -71,9 +74,9 @@ const Contact = () => {
           </textarea>
           <ReCAPTCHA
     sitekey="6LfakowiAAAAALbS94ZaquYxhzYOBMhvJ_XlCfTI"
-    onChange={onChange} required
+    onChange={onChange}
   />
-          <button type='submit' className='btn btn-primary blink'>Send Message</button>
+          <button type='submit' className='btn btn-primary blink' disabled={!verfied}>Send Message</button>
         </form>
 
       </div>
