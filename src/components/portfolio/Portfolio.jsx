@@ -18,10 +18,10 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
-      <h2 className='blink'>Portfolio</h2>
+      <h2 className='blink'>Creativity</h2>
       <div className="container portfolio__container">
 
-        <article className='portfolio__item' data-aos="fade-up">
+        <article className='portfolio__item' data-aos="flip-up">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
@@ -43,7 +43,7 @@ const Portfolio = () => {
           </div>
         </article>
 
-        <article className='portfolio__item' data-aos="zoom-in">
+        <article className='portfolio__item' data-aos="flip-down">
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
@@ -54,7 +54,7 @@ const Portfolio = () => {
           </div>
         </article>
 
-        <article className='portfolio__item' data-aos="fade-left"
+        <article className='portfolio__item' data-aos="flip-right"
      data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="500">
@@ -68,7 +68,7 @@ const Portfolio = () => {
           </div>
         </article>
 
-        <article className='portfolio__item' data-aos="fade-up"
+        <article className='portfolio__item' data-aos="flip-up"
      data-aos-anchor-placement="center-bottom">
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
