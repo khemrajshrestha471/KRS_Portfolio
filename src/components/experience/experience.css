@@ -1,5 +1,5 @@
 #experience {
-    height: 90vh;
+    height: 70vh;
 }
 
 @keyframes blink {
@@ -15,4 +15,28 @@
 .blink {
     animation: blink 1.5s linear infinite;
     font-weight: 500;
+}
+
+@media screen and (max-width: 1070px) {
+    #experience {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 456px) {
+    #experience {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #experience {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #experience {
+        height: 60vh;
+    }
 }
