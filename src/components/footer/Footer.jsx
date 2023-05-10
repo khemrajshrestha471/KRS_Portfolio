@@ -17,14 +17,15 @@ const Footer = () => {
   return (
     <footer>
       <ul className='permalinks'>
+      <li><a href="https://github.com/khemrajshrestha471" target='_blank' className='blink'>GitHub</a></li>
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
-        <li><a href="https://github.com/khemrajshrestha471" target='_blank' className='blink'>GitHub</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         {/* <li><a href="#testimonials">Testimonials</a></li> */}
         <li><a href="#contact">Contact</a></li>
+        <li><a href="https://khemrajshrestha471.github.io/certificates/" target='_blank' className='blink'>Achievements</a></li>
         
       </ul>
 
