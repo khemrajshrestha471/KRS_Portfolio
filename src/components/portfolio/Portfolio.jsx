@@ -55,10 +55,7 @@ const Portfolio = () => {
           </div>
         </article>
 
-        <article className='portfolio__item' data-aos="flip-right"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="500">
+        <article className='portfolio__item' data-aos="flip-left">
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
           </div>

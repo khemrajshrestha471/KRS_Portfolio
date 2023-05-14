@@ -1,3 +1,7 @@
+
+
+
+
 header {
     height: 100vh;
     overflow: hidden;
@@ -166,81 +170,73 @@ header {
 /* ======================== ME ========================== */
 
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    background: #4b6cb7;
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
+    background: linear-gradient(to right, #182848, #4b6cb7);
     width: 19rem;
     height: 20rem;
     left: calc(50% - 10rem);
     margin-top: 3rem;
-    border-radius: 12rem 12rem 11rem 0;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
     overflow: hidden;
     position: absolute;
-    cursor: pointer;
+    transform: var(--transition);
+    cursor: not-allowed;
 }
 
-.me::before,
+
+
+
+
+.me img {
+    width: 100%;
+    height: auto;
+} 
+
+.img-text,
+.me:after {
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
 .me::after {
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
-    z-index: -1;
-    background-color: black;
+    content: '';
+    height: 100%;
+    top: 0;
+    transition: 0.5s;
 }
 
-/* ======================== SCROLL DOWN ========================== */
-
-.scroll__down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
-    bottom: 18rem;
+.me:hover:after {
+    background: linear-gradient(to bottom, rgba(199, 9, 57, .01), rgba(199, 0, 57, .01) 25%, #2c2c6c 85%);
 }
 
-.scroll__down-arrow {
-    position: absolute;
-    right: -0.2rem;
-    bottom: 1.8rem;
-    font-weight: 300;
-    font-size: 0.9rem;
-    color: var(--color-primary);
-    bottom: 14.5rem;
+.img-text {
+    padding: 20px;
+    margin-bottom: 20px;
+    bottom: 0;
+    z-index: 1;
+    transform: translateY(145px);
+    transition: all .5s cubic-bezier(.13, .62, .81, .91) 0s;   
 }
 
-.scroll__down-arrow:hover {
-    color: var(--color-white);
+.img-text h3 {
+    font-family: big john;
 }
 
-/* =======================  MEDIA QUERIES (MEDIUM DEVICES) ===================== */
-
-@media screen and (max-width: 1024px) {
-    header {
-        height: 68vh;
-    }
+.me:hover .img-text {
+    transform: translateY(0);
 }
+
+
 
 /* =======================  MEDIA QUERIES (SMALL DEVICES) ===================== */
 
 @media screen and (max-width: 600px) {
- header {
-    height: 100vh;
- }
-
- .header__socials,
- .scroll__down {
+ .header__socials {
     display: none;
- }
-
- .scroll__down-arrow {
-    font-size: 2rem;
-    left: 20px;
-    border-radius: 50%;
-    border: 2px solid var(--color-primary);
-    padding: 4px;
-    top: 45rem;
  }
 }

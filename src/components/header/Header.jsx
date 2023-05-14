@@ -68,11 +68,14 @@ const Header = () => {
     <div className="me">
       <img src={ME} alt="me" data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500"/>
+     data-aos-duration="1500" />
+                         <div class="img-text">
+                        <h3>Hello...!</h3>
+                        <h5>Glad to see you here,</h5>
+                    </div>
     </div>
-    <a href="#contact" className='scroll__down'>Scroll Down</a>
-    <a href="#contact"><AiOutlineArrowDown className='scroll__down-arrow' /></a>
       </div>
+
 
 
     </header>

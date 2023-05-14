@@ -1,6 +1,48 @@
-#experience {
-    height: 70vh;
+.experience__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
 }
+
+.lists {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.experience {
+    height: fit-content;
+}
+
+.experience__head {
+    padding: 2rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.experience__head h3 {
+    color: var(--color-white);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.experience__list {
+    padding: 2rem;
+}
+
+.experience__list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.experience__list-icon {
+    color: var(--color-primary);
+    margin-top: 2px;
+}
+
+.experience__list p {
+    font-size: 0.9rem;
+}
+
 
 @keyframes blink {
     50% {
@@ -17,26 +59,20 @@
     font-weight: 500;
 }
 
-@media screen and (max-width: 1070px) {
-    #experience {
-        height: 80vh;
+/* =======================  MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+
+@media screen and (max-width: 1024px) {
+
+    .experience {
+        height: auto;
     }
 }
 
-@media screen and (max-width: 456px) {
-    #experience {
-        height: 50vh;
-    }
-}
+/* =======================  MEDIA QUERIES (SMALL DEVICES) ===================== */
 
-@media screen and (max-width: 420px) {
-    #experience {
-        height: 70vh;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    #experience {
-        height: 60vh;
+@media screen and (max-width: 600px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
 }

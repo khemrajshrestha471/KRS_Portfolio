@@ -13,7 +13,7 @@ const Services = () => {
       <h5>What I Do</h5>
       <h2 className='blink'>Services</h2>
       <div className="container services__container">
-        <article className='service' data-aos="zoom-in-down">
+        <article className='service' data-aos="fade-right">
           <div className="service__head">
             <h3>UI/UX Design</h3>
           </div>
@@ -49,6 +49,43 @@ const Services = () => {
           </ul>
         </article>
         {/* END OF UI/UX */}
+
+        <article className='service'>
+          <div className="service__head">
+            <h3>Student Ambassador (Microsoft)</h3>
+          </div>
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p data-aos="fade-right">Promote Microsoft products,</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p data-aos="fade-right">Host events and workshops,</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p data-aos="fade-right">Develop technical skills,</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p data-aos="fade-right">Build a community of students,</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p data-aos="fade-right">Share feedback with Microsoft,</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p data-aos="fade-right">Collaborate with other ambassadors,</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p data-aos="fade-right">Represent Microsoft on campus.</p>
+            </li>
+          </ul>
+        </article>
+        {/* END OF MLSA */}
 
         <article className='service' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
@@ -88,43 +125,6 @@ const Services = () => {
           </ul>
         </article>
         {/* END OF WEB DEVELOPMENT */}
-
-        <article className='service' data-aos="zoom-out-up">
-          <div className="service__head">
-            <h3>Student Ambassador (Microsoft)</h3>
-          </div>
-          <ul className='service__list'>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Promote Microsoft products,</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Host events and workshops,</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Develop technical skills,</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Build a community of students,</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Share feedback with Microsoft,</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Collaborate with other ambassadors,</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Represent Microsoft on campus.</p>
-            </li>
-          </ul>
-        </article>
-        {/* END OF CONTENT CREATION */}
       </div>
     </section>
   )

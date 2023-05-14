@@ -5,17 +5,16 @@
 }
 
 .portfolio__item {
-    background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 2rem;
-    border: 1px solid transparent;
+    border: 2px solid var(--color-primary-variant);
     transition: var(--transition);
     cursor: pointer;
 }
 
 .portfolio__item:hover {
-    border-color: var(--color-primary-variant);
-    background: transparent;
+    border: transparent;
+    background: var(--color-bg-variant);
     transform: scale(1.1);
 }
 
