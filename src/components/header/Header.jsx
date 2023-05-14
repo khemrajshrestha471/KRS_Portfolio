@@ -46,7 +46,7 @@ const Header = () => {
 
       <div className="container header__container">
     <h5>Hello, I'm</h5>
-    <h1 data-aos="zoom-in">Khemraj Shrestha</h1>
+    <p className='intros' data-aos="zoom-in"><span className='fletter'>K</span><span className='lletter'>hemraj</span> <span className='fletter'>S</span><span className='lletter'>hrestha</span></p>
     
 
     <h5 className="text-light">{state.title}</h5>  
