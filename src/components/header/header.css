@@ -193,10 +193,6 @@ header {
     cursor: not-allowed;
 }
 
-
-
-
-
 .me img {
     width: 100%;
     height: auto;
@@ -247,8 +243,23 @@ header {
  }
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 453px) {
     .intros {
+        font-size: 1.5rem;
+    }
+
+    .fletter{  
+        font-size: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 304px) {
+    .intros {
+        font-size: 1rem;
+    }
+
+.fletter{  
         font-size: 2rem;
     }
-   }
+}
