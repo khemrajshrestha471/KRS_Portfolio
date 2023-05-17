@@ -34,9 +34,6 @@ const Contact = () => {
   function onChange(value) {
     console.log("Captcha value:", value);
     setVerifed(true);
-    document.getElementById("unique").style.background = "#2c2c6c";
-    document.getElementById("unique").style.color = "#4db5ff";
-    document.getElementById("unique").style.border = "none";
   }
 
   return (
@@ -79,8 +76,7 @@ const Contact = () => {
     sitekey="6LfakowiAAAAALbS94ZaquYxhzYOBMhvJ_XlCfTI"
     onChange={onChange}
   />
-          {/* <button type='submit' className='btn btn-primary blink' disabled={!verfied}>Send Message</button> */}
-          <button type='submit' className='btn btn-primary' id='unique' disabled={!verfied}>Send Message</button>
+          <button type='submit' className='btn btn-primary blink' disabled={!verfied}>Send Message</button>
         </form>
 
       </div>
