@@ -80,12 +80,6 @@ textarea {
     color: #CCC;
 }
 
-#unique {
-    background: transparent;
-    color: var(--color-white);
-    border: 1px solid var(--color-primary);
-}
-
 /* =======================  MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 
 @media screen and (max-width: 1024px) {
