@@ -34,9 +34,10 @@ const Contact = () => {
   function onChange(value) {
     console.log("Captcha value:", value);
     setVerifed(true);
-    document.getElementById("unique").style.background = "#2c2c6c";
-    document.getElementById("unique").style.color = "#4db5ff";
+    document.getElementById("unique").style.background = "#4db5ff";
+    document.getElementById("unique").style.color = "#fff";
     document.getElementById("unique").style.border = "none";
+    document.getElementById("unique").style.cursor = "pointer";
   }
 
   return (
