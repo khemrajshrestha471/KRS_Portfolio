@@ -22,7 +22,7 @@ import img14 from '../../assets/certificates/Coursera_WebDev.jpg'
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-const Portfolio = () => {
+const Certificates = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -70,10 +70,10 @@ const Portfolio = () => {
     <section id="certificates">
       <h5>My Recent Work</h5>
       <h2 className="blink">Creativity</h2>
-      <div className="container portfolio__container">
+      <div className="container certificates__container">
 
-        <div className="portfolio__item-image">
-          <article className="portfolio__item" data-aos="flip-up">
+        <div className="certificates__item-image">
+          <article className="certificates__item" data-aos="flip-up">
             <div className="col">
               <div className="card h-100">
                 <img src={img1} className="card-img-top" alt="..." />
@@ -87,8 +87,8 @@ const Portfolio = () => {
           </article>
         </div>
 
-        <div className="portfolio__item-image">
-          <article className="portfolio__item" data-aos="flip-left">
+        <div className="certificates__item-image">
+          <article className="certificates__item" data-aos="flip-left">
             <div className="col">
               <div className="card h-100">
                 <img src={img2} className="card-img-top" alt="..." />
@@ -102,8 +102,8 @@ const Portfolio = () => {
           </article>
         </div>
 
-        <div className="portfolio__item-image">
-          <article className="portfolio__item" data-aos="flip-down">
+        <div className="certificates__item-image">
+          <article className="certificates__item" data-aos="flip-down">
             <div className="col">
               <div className="card h-100">
                 <img src={img3} className="card-img-top" alt="..." />
@@ -117,8 +117,8 @@ const Portfolio = () => {
           </article>
         </div>
 
-        <div className="portfolio__item-image">
-          <article className="portfolio__item" data-aos="flip-left">
+        <div className="certificates__item-image">
+          <article className="certificates__item" data-aos="flip-left">
             <div className="col">
               <div className="card h-100">
                 <img src={img4} className="card-img-top" alt="..." />
@@ -132,8 +132,8 @@ const Portfolio = () => {
           </article>
         </div>
 
-        <div className="portfolio__item-image">
-          <article className="portfolio__item" data-aos="flip-up">
+        <div className="certificates__item-image">
+          <article className="certificates__item" data-aos="flip-up">
             <div className="col">
               <div className="card h-100">
                 <img src={img5} className="card-img-top" alt="..." />
@@ -147,8 +147,8 @@ const Portfolio = () => {
           </article>
         </div>
 
-        <div className="portfolio__item-image">
-          <article className="portfolio__item" data-aos="flip-down">
+        <div className="certificates__item-image">
+          <article className="certificates__item" data-aos="flip-down">
             <div className="col">
               <div className="card h-100">
                 <img src={img6} className="card-img-top" alt="..." />
@@ -162,8 +162,8 @@ const Portfolio = () => {
           </article>
         </div>
 
-        <div className="portfolio__item-image">
-          <article className="portfolio__item" data-aos="flip-up">
+        <div className="certificates__item-image">
+          <article className="certificates__item" data-aos="flip-up">
             <div className="col">
               <div className="card h-100">
                 <img src={img7} className="card-img-top" alt="..." />
@@ -177,8 +177,8 @@ const Portfolio = () => {
           </article>
         </div>
 
-        <div className="portfolio__item-image">
-          <article className="portfolio__item" data-aos="flip-left">
+        <div className="certificates__item-image">
+          <article className="certificates__item" data-aos="flip-left">
             <div className="col">
               <div className="card h-100">
                 <img src={img8} className="card-img-top" alt="..." />
@@ -192,8 +192,8 @@ const Portfolio = () => {
           </article>
         </div>
 
-        <div className="portfolio__item-image">
-          <article className="portfolio__item" data-aos="flip-down">
+        <div className="certificates__item-image">
+          <article className="certificates__item" data-aos="flip-down">
             <div className="col">
               <div className="card h-100">
                 <img src={img9} className="card-img-top" alt="..." />
@@ -207,8 +207,8 @@ const Portfolio = () => {
           </article>
         </div>
 
-        <div className="portfolio__item-image">
-          <article className="portfolio__item" data-aos="flip-up">
+        <div className="certificates__item-image">
+          <article className="certificates__item" data-aos="flip-up">
             <div className="col">
               <div className="card h-100">
                 <img src={img10} className="card-img-top" alt="..." />
@@ -222,8 +222,8 @@ const Portfolio = () => {
           </article>
         </div>
 
-        <div className="portfolio__item-image">
-          <article className="portfolio__item" data-aos="flip-left">
+        <div className="certificates__item-image">
+          <article className="certificates__item" data-aos="flip-left">
             <div className="col">
               <div className="card h-100">
                 <img src={img11} className="card-img-top" alt="..." />
@@ -237,8 +237,8 @@ const Portfolio = () => {
           </article>
         </div>
 
-        <div className="portfolio__item-image">
-          <article className="portfolio__item" data-aos="flip-down">
+        <div className="certificates__item-image">
+          <article className="certificates__item" data-aos="flip-down">
             <div className="col">
               <div className="card h-100">
                 <img src={img12} className="card-img-top" alt="..." />
@@ -252,8 +252,8 @@ const Portfolio = () => {
           </article>
         </div>
 
-        <div className="portfolio__item-image">
-          <article className="portfolio__item" data-aos="flip-up">
+        <div className="certificates__item-image">
+          <article className="certificates__item" data-aos="flip-up">
             <div className="col">
               <div className="card h-100">
                 <img src={img13} className="card-img-top" alt="..." />
@@ -267,8 +267,8 @@ const Portfolio = () => {
           </article>
         </div>
 
-        <div className="portfolio__item-image">
-          <article className="portfolio__item" data-aos="flip-left">
+        <div className="certificates__item-image">
+          <article className="certificates__item" data-aos="flip-left">
             <div className="col">
               <div className="card h-100">
                 <img src={img14} className="card-img-top" alt="..." />
@@ -283,25 +283,25 @@ const Portfolio = () => {
         </div>
 
       </div>
-    <div className="pops popup-image1"><button onClick={close1}>&times;</button> <img src={img1} alt="Portfolio" /></div>
-    <div className="pops popup-image2"><button onClick={close2}>&times;</button> <img src={img2} alt="Portfolio" /></div>
-    <div className="pops popup-image3"><button onClick={close3}>&times;</button> <img src={img3} alt="Portfolio" /></div>
-    <div className="pops popup-image4"><button onClick={close4}>&times;</button> <img src={img4} alt="Portfolio" /></div>
-    <div className="pops popup-image5"><button onClick={close5}>&times;</button> <img src={img5} alt="Portfolio" /></div>
+    <div className="pops popup-image1"><button onClick={close1}>&times;</button> <img src={img1} alt="certificates" /></div>
+    <div className="pops popup-image2"><button onClick={close2}>&times;</button> <img src={img2} alt="certificates" /></div>
+    <div className="pops popup-image3"><button onClick={close3}>&times;</button> <img src={img3} alt="certificates" /></div>
+    <div className="pops popup-image4"><button onClick={close4}>&times;</button> <img src={img4} alt="certificates" /></div>
+    <div className="pops popup-image5"><button onClick={close5}>&times;</button> <img src={img5} alt="certificates" /></div>
 
-    <div className="pops popup-image6"><button onClick={close6}>&times;</button> <img src={img6} alt="Portfolio" /></div>
-    <div className="pops popup-image7"><button onClick={close7}>&times;</button> <img src={img7} alt="Portfolio" /></div>
-    <div className="pops popup-image8"><button onClick={close8}>&times;</button> <img src={img8} alt="Portfolio" /></div>
-    <div className="pops popup-image9"><button onClick={close9}>&times;</button> <img src={img9} alt="Portfolio" /></div>
-    <div className="pops popup-image10"><button onClick={close10}>&times;</button> <img src={img10} alt="Portfolio" /></div>
+    <div className="pops popup-image6"><button onClick={close6}>&times;</button> <img src={img6} alt="certificates" /></div>
+    <div className="pops popup-image7"><button onClick={close7}>&times;</button> <img src={img7} alt="certificates" /></div>
+    <div className="pops popup-image8"><button onClick={close8}>&times;</button> <img src={img8} alt="certificates" /></div>
+    <div className="pops popup-image9"><button onClick={close9}>&times;</button> <img src={img9} alt="certificates" /></div>
+    <div className="pops popup-image10"><button onClick={close10}>&times;</button> <img src={img10} alt="certificates" /></div>
 
-    <div className="pops popup-image11"><button onClick={close11}>&times;</button> <img src={img11} alt="Portfolio" /></div>
-    <div className="pops popup-image12"><button onClick={close12}>&times;</button> <img src={img12} alt="Portfolio" /></div>
-    <div className="pops popup-image13"><button onClick={close13}>&times;</button> <img src={img13} alt="Portfolio" /></div>
-    <div className="pops popup-image14"><button onClick={close14}>&times;</button> <img src={img14} alt="Portfolio" /></div>
+    <div className="pops popup-image11"><button onClick={close11}>&times;</button> <img src={img11} alt="certificates" /></div>
+    <div className="pops popup-image12"><button onClick={close12}>&times;</button> <img src={img12} alt="certificates" /></div>
+    <div className="pops popup-image13"><button onClick={close13}>&times;</button> <img src={img13} alt="certificates" /></div>
+    <div className="pops popup-image14"><button onClick={close14}>&times;</button> <img src={img14} alt="certificates" /></div>
     </section>
     
   );
 };
 
-export default Portfolio;
+export default Certificates;
