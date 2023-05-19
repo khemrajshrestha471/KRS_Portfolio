@@ -12,7 +12,7 @@ const App = () => {
     <Router>
       <Routes>
       <Route path='/' element={<App_helper />} />
-      <Route path='www.khemrajshrestha.com.np/certificates' element={<Certificates />} />
+      <Route path='/certificates' element={<Certificates />} />
       </Routes>
     </Router>
     </>
