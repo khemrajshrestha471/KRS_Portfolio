@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import './services.css'
 import {BiCheck} from 'react-icons/bi'
 import Aos from 'aos'
