@@ -11,8 +11,8 @@ const App = () => {
     <>
     <Router>
       <Routes>
-      <Route path='/' element={<App_helper />} />
-      <Route path='/certificates' element={<Certificates />} />
+      <Route path='/' element={<Certificates />} />
+      <Route path='/certificates' element={<App_helper />} />
       </Routes>
     </Router>
     </>
