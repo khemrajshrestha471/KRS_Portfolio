@@ -27,7 +27,8 @@ const Footer = () => {
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
         {/* <li><a href="https://khemrajshrestha471.github.io/certificates/" target='_blank' className='blink'>Achievements</a></li> */}
-        <li><Link to='/certificates' target='_blank' className='blink'> Certificates </Link></li>
+        {/* <li><Link to='/certificates' target='_blank' className='blink'> Certificates </Link></li> */}
+        <li><a href='/certificates' target='_blank' className='blink'>Certificates</a></li>
         
       </ul>
 

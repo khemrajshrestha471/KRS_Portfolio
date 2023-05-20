@@ -68,8 +68,8 @@ const Certificates = () => {
 
   return (
     <section id="certificates">
-      <h5>My Recent Work</h5>
-      <h2 className="blink">Creativity</h2>
+      <h5>My Completion Certificate</h5>
+      <h2 className="blink">Achievements</h2>
       <div className="container certificates__container">
 
         <div className="certificates__item-image">

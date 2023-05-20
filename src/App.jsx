@@ -9,7 +9,7 @@ import Certificates from './components/certificates/Certificates'
 const App = () => {
   return (
     <>
-    <Router basename={process.env.khemrajshrestha.com.np}>
+    <Router>
       <Routes>
       <Route path='/' element={<App_helper />} />
       <Route path='/certificates' element={<Certificates />} />
