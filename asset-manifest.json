@@ -1,36 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f997fd6.css",
-    "main.js": "/static/js/main.73d4bdfa.js",
+    "main.css": "/static/css/main.5a2c5681.css",
+    "main.js": "/static/js/main.15796193.js",
     "static/media/todo.png": "/static/media/todo.670c85c1ff171d3bb9ae.png",
     "static/media/cv.pdf": "/static/media/cv.765ebf1a2c2ae7067037.pdf",
     "static/media/me-about.jpg": "/static/media/me-about.ddad435bab065b1b0105.jpg",
-    "static/media/internship_TSF.png": "/static/media/internship_TSF.55c294c06a820db139c8.png",
-    "static/media/Coursera_WebDev.jpg": "/static/media/Coursera_WebDev.f880963fae241f1b9b93.jpg",
-    "static/media/coursera_python.jpg": "/static/media/coursera_python.91e207d87c3aa9c4dd5b.jpg",
-    "static/media/Coursera_UX.jpg": "/static/media/Coursera_UX.058ae713d4dc79709262.jpg",
-    "static/media/coursera_Azure.jpg": "/static/media/coursera_Azure.cd5c0be8b1c1cf106e02.jpg",
-    "static/media/Python_master_programiz.jpg": "/static/media/Python_master_programiz.7e3c8e7a9d5eae098eab.jpg",
     "static/media/me.png": "/static/media/me.087bc8382d1f838b7ce9.png",
-    "static/media/Python_behind_programiz.jpg": "/static/media/Python_behind_programiz.c9f55d59fdb8976fcf64.jpg",
-    "static/media/Programiz_OOP_Advance.jpg": "/static/media/Programiz_OOP_Advance.7570030f005d986cbb2e.jpg",
-    "static/media/MLSA-Alpha.jpg": "/static/media/MLSA-Alpha.f7e21a0fcaa7ef75e19b.jpg",
-    "static/media/CP_cer.jpg": "/static/media/CP_cer.7b86123bc5784aaee6d7.jpg",
-    "static/media/Hardware_Fellowship_cer.jpg": "/static/media/Hardware_Fellowship_cer.0e7a56f8c8c06131a05c.jpg",
-    "static/media/sololearn_SQL.png": "/static/media/sololearn_SQL.6f6632e728999ffc2764.png",
-    "static/media/RAC_cer.jpg": "/static/media/RAC_cer.706641f1910436125690.jpg",
     "static/media/compiler.jpg": "/static/media/compiler.77e1ab74196a67a2ca3f.jpg",
-    "static/media/sololearn_PHP.jpg": "/static/media/sololearn_PHP.02e20b6ddf8dae298f2a.jpg",
     "static/media/pdf2word.jpg": "/static/media/pdf2word.311c8c053def8a146b36.jpg",
     "static/media/hospital.jpg": "/static/media/hospital.815a04bfc34cb7c700c2.jpg",
     "static/media/quiz.jpg": "/static/media/quiz.95059409eb1ef6864764.jpg",
     "static/media/banking.jpg": "/static/media/banking.a113fe66616f96cac9cb.jpg",
     "index.html": "/index.html",
-    "main.8f997fd6.css.map": "/static/css/main.8f997fd6.css.map",
-    "main.73d4bdfa.js.map": "/static/js/main.73d4bdfa.js.map"
+    "main.5a2c5681.css.map": "/static/css/main.5a2c5681.css.map",
+    "main.15796193.js.map": "/static/js/main.15796193.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f997fd6.css",
-    "static/js/main.73d4bdfa.js"
+    "static/css/main.5a2c5681.css",
+    "static/js/main.15796193.js"
   ]
 }
