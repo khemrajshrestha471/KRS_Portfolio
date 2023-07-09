@@ -48,6 +48,7 @@ footer {
 .footer__copyright {
   margin-bottom: 4rem;
   font-size: 1rem;
+  text-align: center;
 }
 
 @keyframes blink {
