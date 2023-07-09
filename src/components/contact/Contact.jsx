@@ -25,7 +25,7 @@ const Contact = () => {
     emailjs.sendForm('service_zefpl8q', 'template_q7kpe0c', form.current, 'qiXAomFTvl83lpCKw')
       .then(() => {
         e.target.reset();
-        toast.success('Message has been sent successfully!', {
+        toast.success('Message has been sent!', {
           closeButton: true
         });
       })
