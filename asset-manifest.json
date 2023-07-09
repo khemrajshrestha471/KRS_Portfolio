@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a2c5681.css",
-    "main.js": "/static/js/main.75df7b9b.js",
+    "main.css": "/static/css/main.5127693d.css",
+    "main.js": "/static/js/main.5913e775.js",
     "static/media/todo.png": "/static/media/todo.670c85c1ff171d3bb9ae.png",
     "static/media/me-about.jpg": "/static/media/me-about.ddad435bab065b1b0105.jpg",
     "static/media/cv.pdf": "/static/media/cv.b34e24b726a70d7b7c90.pdf",
@@ -12,11 +12,11 @@
     "static/media/quiz.jpg": "/static/media/quiz.95059409eb1ef6864764.jpg",
     "static/media/banking.jpg": "/static/media/banking.a113fe66616f96cac9cb.jpg",
     "index.html": "/index.html",
-    "main.5a2c5681.css.map": "/static/css/main.5a2c5681.css.map",
-    "main.75df7b9b.js.map": "/static/js/main.75df7b9b.js.map"
+    "main.5127693d.css.map": "/static/css/main.5127693d.css.map",
+    "main.5913e775.js.map": "/static/js/main.5913e775.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a2c5681.css",
-    "static/js/main.75df7b9b.js"
+    "static/css/main.5127693d.css",
+    "static/js/main.5913e775.js"
   ]
 }
