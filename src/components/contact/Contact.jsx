@@ -1,35 +1,35 @@
-import React, { useEffect, useState } from 'react'
-import './contact.css'
-import {MdOutlineMail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
-import {BsWhatsapp} from 'react-icons/bs'
-
+import React, { useEffect, useState } from 'react';
+import './contact.css';
+import { MdOutlineMail } from 'react-icons/md';
+import { RiMessengerLine } from 'react-icons/ri';
+import { BsWhatsapp } from 'react-icons/bs';
 import { useRef } from 'react';
-import emailjs from 'emailjs-com'
-
-import Aos from 'aos'
-import 'aos/dist/aos.css'
-
-import ReCAPTCHA from "react-google-recaptcha"
+import emailjs from 'emailjs-com';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
-
   useEffect(() => {
-    Aos.init({duration: 2000});
-}, []);
-
+    Aos.init({ duration: 2000 });
+  }, []);
 
   const form = useRef();
+  const [verfied, setVerifed] = useState(false);
+  const [messageSent, setMessageSent] = useState(false);
 
-  const sendEmail = (e) => {
+  function sendEmail(e) {
     e.preventDefault();
 
     emailjs.sendForm('service_zefpl8q', 'template_q7kpe0c', form.current, 'qiXAomFTvl83lpCKw')
-
-      e.target.reset()
-  };
-
-  const [verfied, setVerifed] = useState(false);
+      .then(() => {
+        e.target.reset();
+        setMessageSent(true);
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
+      });
+  }
 
   function onChange(value) {
     console.log("Captcha value:", value);
@@ -50,21 +50,21 @@ const Contact = () => {
             <MdOutlineMail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>khemrajshrestha471@gmail.com</h5>
-            <a href="mailto:khemrajshrestha471@gmail.com" target='_blank'>Send a mail</a>
+            <a href="mailto:khemrajshrestha471@gmail.com" target='_blank' rel="noopener noreferrer">Send a mail</a>
           </article>
 
           <article className='contact__option' data-aos="zoom-in-up" data-aos-duration="3000">
             <RiMessengerLine className='contact__option-icon' />
             <h4>Messenger</h4>
             <h5>Khemraj Shrestha</h5>
-            <a href="https://m.me/khemrajshrestha471" target='_blank'>Send a message</a>
+            <a href="https://m.me/khemrajshrestha471" target='_blank' rel="noopener noreferrer">Send a message</a>
           </article>
 
           <article className='contact__option' data-aos="zoom-in-up" data-aos-duration="3500">
             <BsWhatsapp className='contact__option-icon' />
             <h4>Whatsapp</h4>
             <h5>+977-9825988781</h5>
-            <a href="https://api.whatsapp.com/send?phone=+9779825988781" target='_blank'>Ping me</a>
+            <a href="https://api.whatsapp.com/send?phone=+9779825988781" target='_blank' rel="noopener noreferrer">Ping me</a>
           </article>
         </div>
 
@@ -74,18 +74,19 @@ const Contact = () => {
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name="email" placeholder='Your Email' required />
           <input type="text" name="subject" placeholder='Subject' required />
-          <textarea name="message" rows="7" placeholder='Your Message' required>
-          </textarea>
+          <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
           <ReCAPTCHA
-    sitekey="6LfakowiAAAAALbS94ZaquYxhzYOBMhvJ_XlCfTI"
-    onChange={onChange}
-  />
-          <button type='submit' className='btn btn-primary' id='unique' disabled={!verfied}>Send Message</button>
+            sitekey="6LfakowiAAAAALbS94ZaquYxhzYOBMhvJ_XlCfTI"
+            onChange={onChange}
+          />
+          <button type='submit' className='btn btn-primary' id='unique' disabled={!verfied}>
+            Send Message
+          </button>
+          {messageSent && <p>Message sent successfully!</p>}
         </form>
-
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
