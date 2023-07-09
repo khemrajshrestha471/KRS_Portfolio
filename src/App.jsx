@@ -8,6 +8,7 @@ import Services from './components/services/Services'
 import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Cursor from './components/cursor/Cursor'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
     <Portfolio />
     <Contact />
     <Footer />
+    <Cursor />
     </>
   )
 }

@@ -1,0 +1,36 @@
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: rgb(56, 50, 50);
+  z-index: -9999;
+  pointer-events: none;
+  transition: all 0.3s ease-out;
+  animation: snake 2s infinite;
+  filter: blur(3);
+}
+
+.cursor.hidden {
+  opacity: 0;
+  transition-delay: 0.3s;
+}
+
+.cursor.visible {
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+@keyframes snake {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.5);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(1);
+  }
+}

@@ -9,6 +9,10 @@ header {
     position: relative;
 }
 
+#header_top {
+    margin-top: 3rem;
+}
+
 .intros {
     font-size: 2.5rem;
     font-family: 'Courier New', Courier, monospace;
@@ -18,113 +22,6 @@ header {
     font-size: 4rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-.bubbles {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-}
-
-.bubbles span {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    background: #4fc3dc;
-    margin: 0 4px;
-    border-radius: 50%;
-    box-shadow: 0 0 0 10px #4fc3dc44,
-    0 0 50px #4fc3dc,
-    0 0 100px #4fc3dc;   
-}
-
-.b1 {
-    animation: animate 15s linear infinite;
-}
-
-.b2 {
-    animation: animate 5s linear infinite;
-}
-
-.b3 {
-    animation: animate 12s linear infinite;
-}
-
-.b4 {
-    animation: animate 34s linear infinite;
-}
-
-.b5 {
-    animation: animate 19s linear infinite;
-}
-
-.b6 {
-    animation: animate 7s linear infinite;
-}
-
-.b7 {
-    animation: animate 32s linear infinite;
-}
-
-.b8 {
-    animation: animate 15s linear infinite;
-}
-
-.b9 {
-    animation: animate 27s linear infinite;
-}
-
-.b10 {
-    animation: animate 31s linear infinite;
-}
-
-.b11 {
-    animation: animate 3s linear infinite;
-}
-
-.b12 {
-    animation: animate 19s linear infinite;
-}
-
-.b13 {
-    animation: animate 24s linear infinite;
-}
-
-.b14 {
-    animation: animate 16s linear infinite;
-}
-
-.b15 {
-    animation: animate 15s linear infinite;
-}
-
-.b16 {
-    animation: animate 42s linear infinite;
-}
-
-.b17 {
-    animation: animate 12s linear infinite;
-}
-
-.b18 {
-    animation: animate 37s linear infinite;
-}
-
-.b19 {
-    animation: animate 17s linear infinite;
-}
-
-.b20 {
-    animation: animate 23s linear infinite;
-}
-
-.bubbles span:nth-child(even) {
-    background: #0080ff;
-    box-shadow: 0 0 0 10px #0080ff44,
-                0 0 50px #0080ff55,
-                0 0 100px #0080ff88;
-}
-
-
 
 @keyframes animate {
     0% {

@@ -21,30 +21,7 @@ const Header = () => {
   return (
     <header>
 
-      <div className="bubbles">
-        <span className='b1'></span>
-        <span className='b2'></span>
-        <span className='b3'></span>
-        <span className='b4'></span>
-        <span className='b5'></span>
-        <span className='b6'></span>
-        <span className='b7'></span>
-        <span className='b8'></span>
-        <span className='b9'></span>
-        <span className='b10'></span>
-        <span className='b11'></span>
-        <span className='b12'></span>
-        <span className='b13'></span>
-        <span className='b14'></span>
-        <span className='b15'></span>
-        <span className='b16'></span>
-        <span className='b17'></span>
-        <span className='b18'></span>
-        <span className='b19'></span>
-        <span className='b20'></span>
-      </div>
-
-      <div className="container header__container">
+      <div className="container header__container" id='header_top'>
     <h5>Hello, I'm</h5>
     <p className='intros' data-aos="zoom-in"><span className='fletter'>K</span><span className='lletter'>hemraj</span> <span className='fletter'>S</span><span className='lletter'>hrestha</span></p>
     
