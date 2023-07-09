@@ -8,6 +8,8 @@ import emailjs from 'emailjs-com';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import ReCAPTCHA from "react-google-recaptcha";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
   useEffect(() => {
@@ -16,7 +18,6 @@ const Contact = () => {
 
   const form = useRef();
   const [verfied, setVerifed] = useState(false);
-  const [messageSent, setMessageSent] = useState(false);
 
   function sendEmail(e) {
     e.preventDefault();
@@ -24,7 +25,9 @@ const Contact = () => {
     emailjs.sendForm('service_zefpl8q', 'template_q7kpe0c', form.current, 'qiXAomFTvl83lpCKw')
       .then(() => {
         e.target.reset();
-        setMessageSent(true);
+        toast.success('Message sent successfully!', {
+          closeButton: true
+        });
       })
       .catch((error) => {
         console.error('Error sending email:', error);
@@ -68,8 +71,6 @@ const Contact = () => {
           </article>
         </div>
 
-        {/* END OF CONTACT OPTIONS */}
-
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name="email" placeholder='Your Email' required />
@@ -82,8 +83,9 @@ const Contact = () => {
           <button type='submit' className='btn btn-primary' id='unique' disabled={!verfied}>
             Send Message
           </button>
-          {messageSent && <p>Message sent successfully!</p>}
         </form>
+
+        <ToastContainer />
       </div>
     </section>
   );
