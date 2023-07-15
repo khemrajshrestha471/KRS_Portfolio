@@ -18,14 +18,9 @@ const Footer = () => {
   return (
     <footer>
       <ul className='permalinks'>
-      <li><a href="https://github.com/khemrajshrestha471" target='_blank' className='blink'>GitHub</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="https://khemrajshrestha471.github.io/certificates/" target='_blank' className='blink'>Certificates</a></li>
+      <li><a href="https://github.com/khemrajshrestha471" target='_blank'>GitHub</a></li>
+        <li><a href="https://certificate.khemrajshrestha.com.np/" target='_blank'>Certificates</a></li>
+        <li><a href="http://activity.khemrajshrestha.com.np/" target='_blank'>Activities</a></li>
         
       </ul>
 
