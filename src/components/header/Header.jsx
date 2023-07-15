@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me.png'
+import ME from '../../assets/me-about.jpg'
 import HeaderSocials from './HeaderSocials'
 import Typewriter from 'typewriter-effect'
 import {AiOutlineArrowDown} from 'react-icons/ai'

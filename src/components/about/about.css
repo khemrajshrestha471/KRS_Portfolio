@@ -1,5 +1,5 @@
 #about {
-  margin-top: -0.3em;
+  margin-top: 1em;
 }
 
 .about__container {
@@ -12,22 +12,28 @@
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
-  background: #f0f2f0;
-  background: -webkit-linear-gradient(to right, #000c40, #f0f2f0);
-  background: linear-gradient(to right, #000c40, #f0f2f0);
+  background: linear-gradient(#0a4c5d, rgb(51, 55, 55));
   display: grid;
   place-items: center;
+  box-shadow: 1px 1px 10px 10px rgba(11, 227, 201, 0.5);
+  transition: var(--transition);
+}
+
+.about__me:hover {
+  box-shadow: 0px 0px 0px 0px rgba(42, 155, 247, 0.2);
+  transition: var(--transition);
 }
 
 .about__me-image {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(10deg);
+  transform: rotate(7deg);
   transition: var(--transition);
 }
 
 .about__me-image:hover {
   transform: rotate(0);
+  transition: var(--transition);
 }
 
 .about__cards {

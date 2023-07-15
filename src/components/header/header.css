@@ -73,21 +73,16 @@ header {
 /* ======================== ME ========================== */
 
 .me {
-    background: #4b6cb7;
-    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
-    background: linear-gradient(to right, #182848, #4b6cb7);
     width: 19rem;
     height: 20rem;
     left: calc(50% - 10rem);
-    margin-top: 3rem;
-    border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    border-top-right-radius: 5rem;
-    border-bottom-left-radius: 5rem;
+    margin: 2.4rem auto;
+    border-radius: 50%;
     overflow: hidden;
     position: absolute;
     transform: var(--transition);
     cursor: not-allowed;
+    box-shadow: 0 0 30px 10px rgba(11, 227, 201, 0.5);
 }
 
 .me img {
@@ -110,7 +105,7 @@ header {
 }
 
 .me:hover:after {
-    background: linear-gradient(to bottom, rgba(199, 9, 57, .01), rgba(199, 0, 57, .01) 25%, #2c2c6c 85%);
+    background: linear-gradient(to bottom, rgba(199, 9, 57, .01), rgba(199, 0, 57, .01) 25%, rgba(11, 227, 201, 0.5) 85%);
 }
 
 .img-text {
