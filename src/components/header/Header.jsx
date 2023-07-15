@@ -47,8 +47,8 @@ const Header = () => {
      data-aos-easing="linear"
      data-aos-duration="1500" />
                          <div class="img-text">
-                        <h3>Hey...!</h3>
-                        <h5>Glad to see you here,</h5>
+                        <h3>Hey...</h3>
+                        <h4>Glad to see you here,</h4>
                     </div>
     </div>
       </div>
