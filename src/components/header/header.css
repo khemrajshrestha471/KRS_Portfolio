@@ -148,25 +148,25 @@ header {
 
 @media screen and (max-width: 453px) {
     header {
-        height: 90vh;
+        height: 100vh;
     }
 
     .intros {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .fletter{  
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 }
 
 
 @media screen and (max-width: 304px) {
     .intros {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
 .fletter{  
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }
