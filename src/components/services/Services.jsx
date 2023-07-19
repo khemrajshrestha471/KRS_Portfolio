@@ -91,7 +91,7 @@ const Services = () => {
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
           <div className="service__head">
-            <h3>Web Developemnt</h3>
+            <h3>Web Development</h3>
           </div>
           <ul className='service__list'>
           <li>
