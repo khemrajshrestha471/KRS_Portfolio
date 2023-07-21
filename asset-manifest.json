@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.8f9338cf.css",
-    "main.js": "/static/js/main.003dc535.js",
+    "main.js": "/static/js/main.689ccc06.js",
     "static/media/me.png": "/static/media/me.373e8a73a02f7f1e002a.png",
     "static/media/todo.png": "/static/media/todo.670c85c1ff171d3bb9ae.png",
     "static/media/me-about.jpg": "/static/media/me-about.ddad435bab065b1b0105.jpg",
-    "static/media/cv.pdf": "/static/media/cv.b34e24b726a70d7b7c90.pdf",
+    "static/media/Khemraj_Shrestha.pdf": "/static/media/Khemraj_Shrestha.b34e24b726a70d7b7c90.pdf",
     "static/media/compiler.jpg": "/static/media/compiler.77e1ab74196a67a2ca3f.jpg",
     "static/media/pdf2word.jpg": "/static/media/pdf2word.311c8c053def8a146b36.jpg",
     "static/media/hospital.jpg": "/static/media/hospital.815a04bfc34cb7c700c2.jpg",
@@ -13,10 +13,10 @@
     "static/media/banking.jpg": "/static/media/banking.a113fe66616f96cac9cb.jpg",
     "index.html": "/index.html",
     "main.8f9338cf.css.map": "/static/css/main.8f9338cf.css.map",
-    "main.003dc535.js.map": "/static/js/main.003dc535.js.map"
+    "main.689ccc06.js.map": "/static/js/main.689ccc06.js.map"
   },
   "entrypoints": [
     "static/css/main.8f9338cf.css",
-    "static/js/main.003dc535.js"
+    "static/js/main.689ccc06.js"
   ]
 }
