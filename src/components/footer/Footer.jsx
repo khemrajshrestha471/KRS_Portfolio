@@ -3,7 +3,6 @@ import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {IoLogoTwitter} from 'react-icons/io'
-import {AiOutlineArrowUp} from 'react-icons/ai'
 import {BsDiscord} from 'react-icons/bs'
 import {FaLinkedinIn} from 'react-icons/fa'
 
@@ -18,7 +17,6 @@ const Footer = () => {
   return (
     <footer>
       <ul className='permalinks'>
-      <li><a href="https://github.com/khemrajshrestha471" target='_blank'>GitHub</a></li>
         <li><a href="https://certificate.khemrajshrestha.com.np/" target='_blank'>Certificates</a></li>
         <li><a href="http://activity.khemrajshrestha.com.np/" target='_blank'>Activities</a></li>
         

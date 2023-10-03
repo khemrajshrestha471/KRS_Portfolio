@@ -55,11 +55,19 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
+    gap: 1rem;
     position: absolute;
     left: 0;
     bottom: 3rem;
-    top: 7rem;
+    top: 8rem;
+    font-size: 1.5rem;
+}
+
+.header__socials::before {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
 }
 
 .header__socials::after {
@@ -141,7 +149,7 @@ header {
 /* =======================  MEDIA QUERIES (SMALL DEVICES) ===================== */
 
 @media screen and (max-width: 600px) {
- .header__socials {
+ #removed {
     display: none;
  }
 }
