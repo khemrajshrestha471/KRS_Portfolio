@@ -37,7 +37,6 @@
 .about__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
 }
 
 .about__card {
@@ -69,7 +68,8 @@
 }
 
 .about__content p {
-  margin: 2rem 0 2.6rem;
+  /* margin: 2rem 0 2.6rem; */
+  margin-bottom: 1.5rem;
   color: var(--color-light);
 }
 
@@ -101,9 +101,9 @@
     margin: 2rem auto 4rem;
   }
 
-  .about__content p {
+  /* .about__content p {
     margin: 1rem 0 1.5rem;
-  }
+  } */
 }
 
 /* =======================  MEDIA QUERIES (SMALL DEVICES) ===================== */
@@ -114,15 +114,15 @@
     margin: 1rem auto 3rem;
   }
 
-  .about__cards {
-    gap: 0.3rem;
-  }
+  /* .about__cards {
+    gap: 0.5rem;
+  } */
 
-  .about__content {
+  /* .about__content {
     text-align: center;
-  }
+  } */
 
-  .about__content p {
+  /* .about__content p {
     margin: 1.5rem 0;
-  }
+  } */
 }
