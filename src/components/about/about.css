@@ -40,17 +40,8 @@
 }
 
 .about__card {
-  /* padding: 2rem; */
   text-align: center;
-  /* border-radius: 1.2rem; */
-  /* border: 2px solid transparent; */
-  /* transition: var(--transition); */
 }
-
-/* .about__card:hover {
-  background: transparent;
-  border-color: var(--color-primary-variant);
-} */
 
 .about__icon {
   color: var(--color-primary);
@@ -99,6 +90,10 @@
     width: 50%;
     margin: 2rem auto 4rem;
   }
+
+  .about__cards {
+    margin: 2rem auto;
+  }
 }
 
 /* =======================  MEDIA QUERIES (SMALL DEVICES) ===================== */
@@ -107,5 +102,9 @@
   .about__me {
     width: 80%;
     margin: 2rem 2rem;
+  }
+
+  .about__cards {
+    margin: 1.5rem auto;
   }
 }

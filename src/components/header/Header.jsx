@@ -4,7 +4,6 @@ import CTA from './CTA'
 import ME from '../../assets/me-about.jpg'
 import HeaderSocials from './HeaderSocials'
 import Typewriter from 'typewriter-effect'
-import {AiOutlineArrowDown} from 'react-icons/ai'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
