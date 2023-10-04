@@ -5,8 +5,8 @@ import IMG1 from '../../assets/banking.jpg'
 import IMG2 from '../../assets/pdf2word.jpg'
 import IMG3 from '../../assets/compiler.jpg'
 import IMG4 from '../../assets/quiz.jpg'
+import IMG6 from '../../assets/todo.jpg'
 import IMG5 from '../../assets/hospital.jpg'
-import IMG6 from '../../assets/todo.png'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -66,6 +66,17 @@ const Portfolio = () => {
           </div>
         </article>
 
+        <article className='portfolio__item' data-aos="flip-down">
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="" />
+          </div>
+          <h3>To Do List</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/khemrajshrestha471/php_workshop/tree/main/crud" className='btn' target='_blank'>GitHub</a>
+            <a href="https://www.khemrajshrestha.com.np/coming-soon" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+
         <article className='portfolio__item' data-aos="flip-up"
      data-aos-anchor-placement="center-bottom">
           <div className="portfolio__item-image">
@@ -74,17 +85,6 @@ const Portfolio = () => {
           <h3>Hospital Management System</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/khemrajshrestha471/CProject-077-BCT-HMS" className='btn' target='_blank'>GitHub</a>
-            <a href="https://www.khemrajshrestha.com.np/coming-soon" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item' data-aos="flip-down">
-          <div className="portfolio__item-image">
-            <img src={IMG6} alt="" />
-          </div>
-          <h3>To Do List</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/khemrajshrestha471/php_workshop/tree/main/crud" className='btn' target='_blank'>GitHub</a>
             <a href="https://www.khemrajshrestha.com.np/coming-soon" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>

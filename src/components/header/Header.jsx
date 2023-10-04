@@ -44,7 +44,7 @@ const Header = () => {
     <div className="me">
       <img src={ME} alt="me" data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500" />
+     data-aos-duration="1500"/>
                          <div class="img-text">
                         <h3>Hey...</h3>
                         <h4>Glad to see you here,</h4>
