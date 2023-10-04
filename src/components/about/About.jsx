@@ -40,7 +40,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            This is <strong>Khemraj</strong>, a technology enthusiast...!
+            I'm <strong>Khemraj</strong>, a technology enthusiast...!
             <br />I have extensive experience working on various web development
             field, Python, C, and C++ projects. Through my dedication and hard
             work, I have successfully hosted over 10 websites via GitHub. I

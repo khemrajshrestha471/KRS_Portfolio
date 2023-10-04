@@ -28,7 +28,7 @@ const Experience = () => {
             <li>
               <BiCheck className="experience__list-icon" />
               <p data-aos="fade-right">
-                Library / Frameworks :- React, Bootstrap, jQuery, Wordpress...
+                Library / Frameworks :- React, NextJs, Bootstrap, jQuery, Wordpress...
               </p>
             </li>
             <li>
