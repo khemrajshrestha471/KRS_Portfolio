@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
-import {IoLogoTwitter} from 'react-icons/io'
 import {BsDiscord} from 'react-icons/bs'
 import {FaLinkedinIn} from 'react-icons/fa'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 
 import Aos from 'aos'
@@ -26,7 +27,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/khemrajshrestha471/" target="_blank" data-aos="fade-down-left"><FaLinkedinIn /></a>
         <a href="https://www.facebook.com/khemrajshrestha471" target='_blank' data-aos="fade-left"><FaFacebookF /></a>
         <a href="https://www.instagram.com/khemrajshrestha471/" target='_blank' data-aos="zoom-in"><FiInstagram /></a>
-        <a href="https://twitter.com/khemrajstha471" target='_blank' data-aos="zoom-out-up"><IoLogoTwitter /></a>
+        <a href="https://twitter.com/khemrajstha471" target='_blank' data-aos="zoom-out-up"><FontAwesomeIcon icon={faXTwitter} /></a>
         <a href="https://discord.com/invite/FGnHhh9ycC" target='_blank' data-aos="zoom-in-down"><BsDiscord /></a>
       </div>
 
