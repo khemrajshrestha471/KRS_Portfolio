@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './portfolio.css'
 
 import IMG1 from '../../assets/banking.jpg'
-import IMG2 from '../../assets/pdf2word.jpg'
+import IMG2 from '../../assets/weather.png'
 import IMG3 from '../../assets/compiler.jpg'
 import IMG4 from '../../assets/quiz.jpg'
 import IMG6 from '../../assets/todo.jpg'
@@ -24,7 +24,7 @@ const Portfolio = () => {
 
         <article className='portfolio__item' data-aos="flip-up">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG1} alt="" height={210}/>
           </div>
           <h3>Banking System Workflow</h3>
           <div className="portfolio__item-cta">
@@ -35,18 +35,18 @@ const Portfolio = () => {
 
         <article className='portfolio__item' data-aos="flip-left">
           <div className="portfolio__item-image">
-            <img src={IMG2} alt="" />
+            <img src={IMG2} alt="" height={210}/>
           </div>
-          <h3>PDF 2 Word Converter</h3>
+          <h3>Local Scan</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/khemrajshrestha471/PDF2Word_Converter" className='btn' target='_blank'>GitHub</a>
-            <a href="http://convertspdf2word.pythonanywhere.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/khemrajshrestha471/quintakers-project-naso" className='btn' target='_blank'>GitHub</a>
+            <a href="https://white-sand-0c48a9310.3.azurestaticapps.net/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
         <article className='portfolio__item' data-aos="flip-down">
           <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
+            <img src={IMG3} alt="" height={210}/>
           </div>
           <h3>Compiler Design - Own Syntax</h3>
           <div className="portfolio__item-cta">
@@ -57,7 +57,7 @@ const Portfolio = () => {
 
         <article className='portfolio__item' data-aos="flip-left">
           <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
+            <img src={IMG4} alt="" height={210}/>
           </div>
           <h3>Quiz Application - PHP</h3>
           <div className="portfolio__item-cta">
@@ -68,7 +68,7 @@ const Portfolio = () => {
 
         <article className='portfolio__item' data-aos="flip-down">
           <div className="portfolio__item-image">
-            <img src={IMG6} alt="" />
+            <img src={IMG6} alt="" height={210}/>
           </div>
           <h3>To Do List</h3>
           <div className="portfolio__item-cta">
@@ -80,7 +80,7 @@ const Portfolio = () => {
         <article className='portfolio__item' data-aos="flip-up"
      data-aos-anchor-placement="center-bottom">
           <div className="portfolio__item-image">
-            <img src={IMG5} alt="" />
+            <img src={IMG5} alt="" height={210}/>
           </div>
           <h3>Hospital Management System</h3>
           <div className="portfolio__item-cta">
