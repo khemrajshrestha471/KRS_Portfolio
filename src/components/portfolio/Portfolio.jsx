@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import './portfolio.css'
 
 import IMG1 from '../../assets/banking.jpg'
 import IMG2 from '../../assets/weather.png'
 import IMG3 from '../../assets/compiler.jpg'
 import IMG4 from '../../assets/quiz.jpg'
-import IMG6 from '../../assets/todo.jpg'
+import IMG6 from '../../assets/ecommerce.jpg'
 import IMG5 from '../../assets/hospital.jpg'
 
 import Aos from 'aos'
@@ -70,9 +70,9 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG6} alt="" height={210}/>
           </div>
-          <h3>To Do List</h3>
+          <h3>Ecommerce Website</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/khemrajshrestha471/php_workshop/tree/main/crud" className='btn' target='_blank'>GitHub</a>
+            <a href="https://github.com/khemrajshrestha471/ecommerce-website" className='btn' target='_blank'>GitHub</a>
             <a href="https://www.khemrajshrestha.com.np/coming-soon" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
