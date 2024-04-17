@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.32d807d4.css",
-    "main.js": "/static/js/main.307bcf08.js",
+    "main.js": "/static/js/main.140a4b0a.js",
     "static/media/me-about.jpg": "/static/media/me-about.d2afe7ad0ab5f47b024b.jpg",
+    "static/media/emis.png": "/static/media/emis.6dd022e27c135b00a3a4.png",
     "static/media/Khemraj_Shrestha.pdf": "/static/media/Khemraj_Shrestha.f25840dc89c83d042d48.pdf",
     "static/media/weather.png": "/static/media/weather.f440b0889c39a2dc4920.png",
     "static/media/me.jpg": "/static/media/me.cf898800d2eea0b4b055.jpg",
-    "static/media/hospital.jpg": "/static/media/hospital.815a04bfc34cb7c700c2.jpg",
+    "static/media/npm.jpg": "/static/media/npm.25ab0f5b56ceac6a5679.jpg",
     "static/media/ecommerce.jpg": "/static/media/ecommerce.d6f8ba0a2c3b5a5484fa.jpg",
-    "static/media/quiz.jpg": "/static/media/quiz.95059409eb1ef6864764.jpg",
     "static/media/banking.jpg": "/static/media/banking.a113fe66616f96cac9cb.jpg",
     "static/media/compiler.jpg": "/static/media/compiler.c5d65fdfec19034be3cc.jpg",
     "index.html": "/index.html",
     "main.32d807d4.css.map": "/static/css/main.32d807d4.css.map",
-    "main.307bcf08.js.map": "/static/js/main.307bcf08.js.map"
+    "main.140a4b0a.js.map": "/static/js/main.140a4b0a.js.map"
   },
   "entrypoints": [
     "static/css/main.32d807d4.css",
-    "static/js/main.307bcf08.js"
+    "static/js/main.140a4b0a.js"
   ]
 }
