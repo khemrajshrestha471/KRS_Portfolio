@@ -18,8 +18,10 @@ const Footer = () => {
   return (
     <footer>
       <ul className='permalinks'>
-        <li><a href="https://certificate.khemrajshrestha.com.np/" target='_blank'>Certificates</a></li>
         <li><a href="http://activity.khemrajshrestha.com.np/" target='_blank'>Activities</a></li>
+        <li><a href="http://blog.khemrajshrestha.com.np/" target='_blank'>Blog</a></li>
+        <li><a href="https://certificate.khemrajshrestha.com.np/" target='_blank'>Certificates</a></li>
+        
         
       </ul>
 
