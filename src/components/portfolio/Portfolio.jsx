@@ -29,7 +29,7 @@ const Portfolio = () => {
           <h3>NPM Package</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/khemrajshrestha471/country-province-district-munvdc" className='btn' target='_blank'>GitHub</a>
-            <a href="https://www.npmjs.com/package/country-province-district-munvdc" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://conditional-selection-demo-i15v8bth5-khemraj-shresthas-projects.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
@@ -63,7 +63,7 @@ const Portfolio = () => {
           <h3>Ecommerce Website</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/khemrajshrestha471/ecommerce-website" className='btn' target='_blank'>GitHub</a>
-            <a href="https://www.khemrajshrestha.com.np/coming-soon" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://youtu.be/idXbvIXYW34" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
@@ -85,7 +85,7 @@ const Portfolio = () => {
           <h3>Banking System Workflow</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/khemrajshrestha471/Banking_System_Workflow" className='btn' target='_blank'>GitHub</a>
-            <a href="https://basicworkflow.000webhostapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://youtu.be/VA3XnvtUknQ" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
