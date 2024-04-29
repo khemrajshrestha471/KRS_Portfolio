@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.32d807d4.css",
-    "main.js": "/static/js/main.dabda0ea.js",
+    "main.js": "/static/js/main.0a57059b.js",
     "static/media/me-about.jpg": "/static/media/me-about.d2afe7ad0ab5f47b024b.jpg",
     "static/media/emis.png": "/static/media/emis.6dd022e27c135b00a3a4.png",
     "static/media/fifa.jpg": "/static/media/fifa.8307a4b71574f5218fbf.jpg",
@@ -13,10 +13,10 @@
     "static/media/banking.jpg": "/static/media/banking.a113fe66616f96cac9cb.jpg",
     "index.html": "/index.html",
     "main.32d807d4.css.map": "/static/css/main.32d807d4.css.map",
-    "main.dabda0ea.js.map": "/static/js/main.dabda0ea.js.map"
+    "main.0a57059b.js.map": "/static/js/main.0a57059b.js.map"
   },
   "entrypoints": [
     "static/css/main.32d807d4.css",
-    "static/js/main.dabda0ea.js"
+    "static/js/main.0a57059b.js"
   ]
 }
