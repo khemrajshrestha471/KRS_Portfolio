@@ -26,7 +26,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" height={210}/>
           </div>
-          <h3>FIFA WorldCup Analysizer</h3>
+          <h3>FIFA WorldCup Analyzer</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/khemrajshrestha471/FIFA_WorldCup_Analyzer" className='btn' target='_blank'>GitHub</a>
             <a href="https://fifa-worldcup-analyzer.streamlit.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
