@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './portfolio.css'
 
-import IMG1 from '../../assets/olympic.png'
+import IMG1 from '../../assets/fifa.jpg'
 import IMG2 from '../../assets/npm.jpg'
 import IMG3 from '../../assets/emis.png'
 import IMG4 from '../../assets/weather.png'
@@ -26,10 +26,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" height={210}/>
           </div>
-          <h3>Olympics Analysizer</h3>
+          <h3>FIFA WorldCup Analysizer</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/khemrajshrestha471/Olympics_Analysizer" className='btn' target='_blank'>GitHub</a>
-            <a href="https://olympics-analysizer.streamlit.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/khemrajshrestha471/FIFA_WorldCup_Analyzer" className='btn' target='_blank'>GitHub</a>
+            <a href="https://fifa-worldcup-analyzer.streamlit.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
