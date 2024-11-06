@@ -4,7 +4,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/fifa.jpg'
 import IMG2 from '../../assets/npm.jpg'
 import IMG3 from '../../assets/meroSpace.png'
-import IMG4 from '../../assets/weather.png'
+import IMG4 from '../../assets/thapathali.jpg'
 import IMG5 from '../../assets/ecommerce.jpg'
 import IMG6 from '../../assets/banking.jpg'
 
@@ -60,10 +60,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" height={210}/>
           </div>
-          <h3>Local Scan</h3>
+          <h3>Thapathali Campus Website</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/khemrajshrestha471/quintakers-project-naso" className='btn' target='_blank'>GitHub</a>
-            <a href="https://white-sand-0c48a9310.3.azurestaticapps.net/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/Strange18/tcioe-node" className='btn' target='_blank'>GitHub</a>
+            <a href="https://tcioe.edu.np/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
