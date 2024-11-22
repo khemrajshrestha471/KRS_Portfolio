@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.32d807d4.css",
-    "main.js": "/static/js/main.af87a59b.js",
+    "main.js": "/static/js/main.7bb1b351.js",
     "static/media/me-about.jpg": "/static/media/me-about.d2afe7ad0ab5f47b024b.jpg",
     "static/media/fifa.jpg": "/static/media/fifa.8307a4b71574f5218fbf.jpg",
     "static/media/meroSpace.png": "/static/media/meroSpace.25fbbe202556596bc71d.png",
@@ -10,13 +10,13 @@
     "static/media/me.jpg": "/static/media/me.cf898800d2eea0b4b055.jpg",
     "static/media/npm.jpg": "/static/media/npm.25ab0f5b56ceac6a5679.jpg",
     "static/media/ecommerce.jpg": "/static/media/ecommerce.d6f8ba0a2c3b5a5484fa.jpg",
-    "static/media/banking.jpg": "/static/media/banking.a113fe66616f96cac9cb.jpg",
+    "static/media/proctoring.jpg": "/static/media/proctoring.e26588f1fe740ec44359.jpg",
     "index.html": "/index.html",
     "main.32d807d4.css.map": "/static/css/main.32d807d4.css.map",
-    "main.af87a59b.js.map": "/static/js/main.af87a59b.js.map"
+    "main.7bb1b351.js.map": "/static/js/main.7bb1b351.js.map"
   },
   "entrypoints": [
     "static/css/main.32d807d4.css",
-    "static/js/main.af87a59b.js"
+    "static/js/main.7bb1b351.js"
   ]
 }
