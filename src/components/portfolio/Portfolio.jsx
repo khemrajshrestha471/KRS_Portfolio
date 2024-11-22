@@ -6,7 +6,7 @@ import IMG2 from '../../assets/npm.jpg'
 import IMG3 from '../../assets/meroSpace.png'
 import IMG4 from '../../assets/thapathali.jpg'
 import IMG5 from '../../assets/ecommerce.jpg'
-import IMG6 from '../../assets/banking.jpg'
+import IMG6 from '../../assets/proctoring.jpg'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -27,10 +27,21 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" height={210}/>
           </div>
-          <h3>meroSpace - Rent finder portal</h3>
+          <h3>meroSpace - Rent Finder Portal</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/khemrajshrestha471/meroSpace-frontend-deployment" className='btn' target='_blank'>GitHub</a>
             <a href="https://mero-space.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+
+        <article className='portfolio__item' data-aos="flip-up">
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="" height={210}/>
+          </div>
+          <h3>FuseNirikshak - Proctoring System</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/khemrajshrestha471/Inbrowser-Proctoring" className='btn' target='_blank'>GitHub</a>
+            <a href="https://youtu.be/Gxkk5lmqVA0" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
@@ -75,17 +86,6 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/khemrajshrestha471/ecommerce-website" className='btn' target='_blank'>GitHub</a>
             <a href="https://youtu.be/idXbvIXYW34" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item' data-aos="flip-up">
-          <div className="portfolio__item-image">
-            <img src={IMG6} alt="" height={210}/>
-          </div>
-          <h3>Banking System Workflow</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/khemrajshrestha471/Banking_System_Workflow" className='btn' target='_blank'>GitHub</a>
-            <a href="https://youtu.be/VA3XnvtUknQ" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
