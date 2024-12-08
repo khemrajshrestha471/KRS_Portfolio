@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.32d807d4.css",
-    "main.js": "/static/js/main.c86ba2be.js",
+    "main.js": "/static/js/main.07179a0f.js",
     "static/media/me-about.jpg": "/static/media/me-about.d2afe7ad0ab5f47b024b.jpg",
     "static/media/fifa.jpg": "/static/media/fifa.8307a4b71574f5218fbf.jpg",
-    "static/media/Khem_Raj_Shrestha_Resume.pdf": "/static/media/Khem_Raj_Shrestha_Resume.67045a4e3ff4db18d5f4.pdf",
+    "static/media/Khem_Raj_Shrestha_Resume.pdf": "/static/media/Khem_Raj_Shrestha_Resume.4b1b6a9d788e4c478b99.pdf",
     "static/media/meroSpace.png": "/static/media/meroSpace.25fbbe202556596bc71d.png",
     "static/media/thapathali.jpg": "/static/media/thapathali.62054ccb86c5adb9cf81.jpg",
     "static/media/me.jpg": "/static/media/me.cf898800d2eea0b4b055.jpg",
@@ -13,10 +13,10 @@
     "static/media/proctoring.jpg": "/static/media/proctoring.e26588f1fe740ec44359.jpg",
     "index.html": "/index.html",
     "main.32d807d4.css.map": "/static/css/main.32d807d4.css.map",
-    "main.c86ba2be.js.map": "/static/js/main.c86ba2be.js.map"
+    "main.07179a0f.js.map": "/static/js/main.07179a0f.js.map"
   },
   "entrypoints": [
     "static/css/main.32d807d4.css",
-    "static/js/main.c86ba2be.js"
+    "static/js/main.07179a0f.js"
   ]
 }
