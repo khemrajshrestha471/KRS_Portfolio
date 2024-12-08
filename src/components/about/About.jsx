@@ -40,12 +40,8 @@ const About = () => {
             </article>
           </div>
           <p>
-            I'm <strong>Khemraj</strong>, a technology enthusiast...!
-            <br />I have extensive experience working on various web development
-            field, Python, C, and C++ projects. Through my dedication and hard
-            work, I have successfully hosted over 10 websites via GitHub. I
-            thrive on facing different challenges and stepping outside my
-            comfort zone to continually improve my skills.
+            I'm <strong>Khem Raj</strong>, a technology enthusiast...!
+            <br /><br /><i>"Smart-working and self-motivated individual dedicated towards achieving the best-quality outcomes"</i>
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
